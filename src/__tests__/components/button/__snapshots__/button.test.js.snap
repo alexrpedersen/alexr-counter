@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> renders correctly 1`] = `
+<div
+  className="Button"
+>
+  <div>
+    <div
+      className="count"
+    >
+      <h3>
+        Count:
+      </h3>
+      <h1>
+        0
+      </h1>
+    </div>
+    <button
+      onClick={[Function]}
+    >
+       - 
+    </button>
+    <button
+      onClick={[Function]}
+    >
+       + 
+    </button>
+  </div>
+</div>
+`;

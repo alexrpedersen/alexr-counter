@@ -25,7 +25,7 @@ import React from "react";
     return (
       <div className="Button">
         <div>
-          <div class="count">
+          <div className="count">
             <h3>Count:</h3>
             <h1>{this.state.count}</h1>
           </div>
