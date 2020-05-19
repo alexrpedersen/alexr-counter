@@ -1,6 +1,7 @@
 import React from 'react';
-import Button from "./button.js";
-
+import Button from './button.js';
+import Footer from './footer';
+import Header from './header';
 import './App.css';
 
 class App extends React.Component {
@@ -28,6 +29,7 @@ class App extends React.Component {
     return (
     <React.Fragment>
       <div className="app">
+        <Header />
         <div>
           <div class="count">
             <h3>Count:</h3>
@@ -39,6 +41,7 @@ class App extends React.Component {
           </div>
         </div>
       </div>
+      <Footer />
     </React.Fragment>
     );
   }
